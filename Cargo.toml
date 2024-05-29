@@ -1,0 +1,20 @@
+[package]
+name = "client-server-tcp"
+version = "1.0.0"
+edition = "2021"
+default-run = "main"
+
+[dependencies]
+
+
+[[bin]]
+name = "client"
+path = "bin/client/client.rs"
+
+[[bin]]
+name = "server"
+path = "bin/server/server.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
